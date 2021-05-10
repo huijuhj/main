@@ -1,0 +1,65 @@
+/* 公用样式 */
+* {margin: 0; padding: 0;}
+a {text-decoration: none; }
+header {
+  width: 100%;
+  height: 122px;
+  background: rgba(0, 0, 0, 1);
+}
+.header_box{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.header_left {
+  margin-left: 20%;
+  width: 250px;
+  float:left;
+}
+.header_right{
+  float:right;
+  margin-right: 22%;
+}
+header h {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.header_right ul {
+  width: 680px;
+  height: 77px;
+  padding-top: 35px;
+}
+.header_right ul li {
+  float: left;
+  width: 110px;
+  padding: 20px;
+  list-style-type: none;
+}
+.hide {
+  height: 21px;
+  position:relative;
+  overflow:hidden;
+  text-align: center;
+}
+.hide div {
+  bottom: 0;
+  width: 110px;
+  height: 100%;
+  position: absolute;
+  transition: bottom 0.3s;
+  color: rgba(171, 175, 183, 1);
+}
+.hide p {
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: top 0.3s;
+  color: white;
+}
+.hide:hover div {
+  bottom:100%;
+}
+.hide:hover p {
+  top:0;
+}
