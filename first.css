@@ -10,7 +10,7 @@ header {
   margin: 0 auto;
   background: rgba(0, 0, 0, 1);
 }
-.header_box{
+.header_box {
   font-size: 16px;
   line-height: 1.5;
 }
@@ -25,8 +25,8 @@ header {
   font-weight: bold;
 }
 
-.header_right{
-  float:right;
+.header_right {
+  float: right;
   margin-right: 27%;
 }
 .header_right ul {
@@ -108,19 +108,18 @@ header {
   border: none;
   margin-top: 20px;
   font-weight: bold;
-  border-radius: 6px 6px 6px 6px;
-  transition: background-color 0.3s;
+  border-radius: 6px;
+  transition: 0.3s;
   background-color: rgb(81, 56, 231);
   box-shadow: 0 3px 40px 0 rgba(81, 56, 231, 0.3);
 }
 .page_one button:hover {
-  background-color: #FF3C81;
-}
-.page_one button:active {
-  background-color: #000000;
+  background-color: rgb(255, 60, 129);
+  box-shadow: 0 3px 40px 0 rgba(255, 60, 129, 0.3);
 }
 .page_one button span {
   font-size: 36px;
+  line-height: 30px;
   letter-spacing: 2px;
 }
 .wrap {
@@ -131,7 +130,7 @@ header {
 }
 
 .page_two {
-  height: 930px;
+  height: 923px;
   background-color: #000000;
 }
 .two_left {
@@ -191,7 +190,7 @@ header {
 
 
 .page_three{
-  height: 830px;
+  height: 887px;
 }
 .page_three h1{
   font-size: 18px;
@@ -207,6 +206,7 @@ header {
   font-weight: 700;
   line-height: 70px;
   text-align: center;
+  margin-top: 20px;
 }
 .appraise {
   width: 1593px;
@@ -218,6 +218,7 @@ header {
   float: left;
   height: 350px;
   margin-left: 75px;
+  margin-top: 100px;
   background-color: white;
   border-radius: 25px 25px 25px 25px;
 }
@@ -263,16 +264,178 @@ hr {
   margin-right: 8%;
 }
 
-.page_copyright{
-  height: 47px;
-  font-size: 15px;
-  background-color: rgb(243, 243, 243);
+.page_fourth {
+  height: 927px;
+  background-color: white;
 }
-.page_copyright span{
-  text-align: center;
-  display:block;
-padding-top: 15px;
-  box-sizing: border-box;
-  color: rgb(111, 111, 111);
+.four_left {
+  width: 24%;
+  float: left;
+  padding-top: 8%;
+  padding-left: 10%;
+}
+.four_left h1 {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 50px;
+  color: rgb(253, 52, 110);
+}
+.four_left h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.four_left p {
+  line-height: 30px;
+}
+.four_left button {
+  color: white;
+  width: 152px;
+  height: 48px;
+  border: none;
+  margin-top: 50px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s;
+  background-color: rgb(255, 60, 129);
+  box-shadow: 0 3px 40px 0 rgba(255, 60, 129, 0.3);
+}
+.four_left button:hover {
+  background-color: rgb(81, 56, 231);
+  box-shadow: 0 3px 40px 0 rgba(81, 56, 231, 0.3);
+}
+.four_left button span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+.four_img {
+  float: left;
+  margin-top: 130px;
+  margin-left: 4%;
+}
+.four_img img{
+  border-radius: 25px;
+}
+.four_right {
+  float: left;
+  width: 22%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+.four_right h3{
+  font-size: 20px;
+  line-height: 100px;
+  color: rgb(81, 56, 231);
+}
+.four_right p {
+  font-size: 16px;
+  line-height: 70px;
+  margin-top: -40px;
+}
+.four_right a {
+  text-decoration: underline;
+}
 
+.page_fifth {
+  height: 671px;
+  background-color: rgb(81, 56, 231)
+}
+.page_fifth h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  padding-top: 150px;
+}
+.page_fifth h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 75px;
+  text-align: center;
+  padding-top: 15px;
+}
+.page_fifth p {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.five_left {
+  width: 24%;
+  float: left;
+  padding-top: 100px;
+  padding-left: 5%;
+}
+.five_left h1 {
+  font-size: 19px;
+  font-weight: 700;
+  padding-top: 0;
+  text-align: right;
+}
+.five_input {
+  float: left;
+  margin-top: 100px;
+}
+.five_input input {
+  background-color: rgba(185, 255, 222, 0);
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px;
+  width: 580px;
+}
+.five_button {
+  float: left;
+  margin-top: 50px;
+  margin-left: 1%;
+}
+.five_button button {
+  color: white;
+  width: 182px;
+  height: 56px;
+  border: none;
+  margin-top: 50px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: rgb(255, 60, 129);
+}
+.five_button button span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+.five_right {
+  float: left;
+  margin-top: -130px;
+  transform: scale(0.7, 0.7)
+}
+
+
+.page_copyright {
+  height: 70px;
+  font-size: 15px;
+  background-color: rgba(241, 241, 248, 1);
+}
+.page_copyright span {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(111, 111, 111);
 }
