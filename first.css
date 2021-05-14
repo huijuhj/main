@@ -15,7 +15,7 @@ header {
   line-height: 1.5;
 }
 .header_left {
-  float:left;
+  float: left;
   width: 250px;
   margin-left: 20%;
 }
@@ -26,8 +26,8 @@ header {
 }
 
 .header_right {
-  float: right;
-  margin-right: 27%;
+  float: left;
+  margin-left: 7%;
 }
 .header_right ul {
   width: 100%;
