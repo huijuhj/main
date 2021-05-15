@@ -1,0 +1,86 @@
+* {margin: 0; padding: 0;}
+.back {
+  height: 50px;
+  width: 50px;
+  z-index:-1;
+  position: relative;
+}
+.login {
+  position: absolute;
+}
+.img {
+  margin-top: 210px;
+  margin-left: 290px;
+  transform: scale(0.75,0.75);
+}
+.login h1 {
+  font-size: 65px;
+  font-weight: 600;
+  margin-left: 250px;
+}
+.login h2 {
+  font-size: 27px;
+  font-weight: 400;
+  margin-left: 365px;
+  margin-top: 20px;
+}
+.login h3 {
+  font-size: 47px;
+  font-weight: 500;
+  margin-left: 130px;
+}
+.account {
+  margin-top: 110px;
+}
+.cipher {
+  margin-top: 190px;
+}
+.five_input {
+  width: 680px;
+  height: 70px;
+  float: left;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+.five_input label input {
+  background-color: rgb(246, 246, 246);
+  border-width: 6px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(5, 47, 87);
+  font-size: 45px;
+  font-weight: 400;
+  padding: 20px;
+  width: 680px;
+  height: 70px;
+}
+.login button {
+  color: white;
+  width: 730px;
+  height: 120px;
+  border: none;
+  margin-top: 150px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-left: 130px  ;
+  background-color: rgb(5, 47, 87);
+  box-shadow: 0 3px 40px 0 rgba(5, 47, 87, 0.3);
+}
+.login button span {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 3px;
+  letter-spacing: 30px;
+}
+.login div p {
+  font-size: 40px;
+  margin-top: 60px;
+}
+.bottom_forget {
+  float: left;
+  margin-left: 130px;
+}
+.bottom_register {
+  float: right;
+  margin-right: 130px;
+}

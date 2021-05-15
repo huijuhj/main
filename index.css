@@ -1,64 +1,64 @@
 * {margin: 0; padding: 0;}
 .background_white {
-  z-index:-1;
-  height: 300px;
-  width: 400px;
+  z-index: -1;
+  height: 800px;
+  width: 1000px;
   background-color: white;
   position: absolute;
 }
 .background_orange {
-  border-radius: 1000px/50px;
-  z-index:-1;
-  height: 500px;
-  width: 400px;
-  background-color: #FCB946;
-  margin-top: 300px;
+  z-index: -1;
+  height: 1100px;
+  width: 1000px;
+  margin-top: 800px;
   position: absolute;
+  background-color: #FCB946;
+  border-radius: 1000px/50px;
 }
 
 .brand {
-  width: 10%;
   float: left;
+  margin-top: 25px;
 }
 .orient_position {
   float: left;
-  padding-top: 70px;
-  padding-left: 1px;
+  margin-top: 270px;
+  margin-left: -65px;
 }
 .orient_position p {
-  color: #004793;
-  font-size: 16px;
+  color: #022d4d;
+  font-size: 47px;
 }
 .blank {
-  width: 38.5%;
-  height: 95px;
+  width: 1000px;
+  height: 340px;
 }
 .content h1 {
-  font-size: 20px;
+  font-size: 55px;
   font-weight: 450;
-  padding-left: 45px;
+  padding-left: 180px;
 }
 button {
-  width: 250px;
-  height: 45px;
+  width: 620px;
+  height: 125px;
   border: none;
-  margin-left: 7%;
-  margin-top: 30px;
-  border-radius: 6px;
+  margin-top: 50px;
+  margin-left: 183px;
+  border-radius: 15px;
 }
 span {
   color: white;
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 60px;
+  line-height: 1px;
   letter-spacing: 5px;
 }
 .go_campus {
-  margin-top: 30px;
+  margin-top: 50px;
   background-color: rgb(81, 56, 231);
   box-shadow: 0 3px 40px 0 rgba(81, 56, 231, 0.3);
 }
 .share_service {
-  margin-top: 20px;
+  margin-top: 70px;
   background-color: rgb(255, 60, 129);
   box-shadow: 0 3px 40px 0 rgba(255, 60, 129, 0.3);
 }
