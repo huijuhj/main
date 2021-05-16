@@ -116,7 +116,7 @@ body {
   margin-left: 40px;
   width: 10px;
   height: 112px;
-  background: darkgray;
+  background: rgb(208, 207, 209);
   border-radius: 5px;
 }
 .vertical_two {
@@ -125,7 +125,7 @@ body {
   margin-left: -10px;
   width: 10px;
   height: 112px;
-  background: darkgray;
+  background: rgb(208, 207, 209);
   border-radius: 5px;
 }
 
@@ -175,7 +175,6 @@ body {
 .img img {
   margin-left: 20px;
 }
-
 .background_down {
   z-index: -1;
   height: 300px;

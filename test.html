@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>隐藏滚动条</title>
+  <style type="text/css">
+    .wrapper{
+      overflow:hidden;
+      width:200px;
+    }
+    .parent{
+      width:calc(100% + 15px);/*使滚动条超出当前元素的父元素边界，而父元素设置了overflow为hidden，使溢出内容隐藏，即隐藏了滚动条*/
+      height:40px;
+      padding-right:15px;
+      box-sizing:content-box;/*兼容ie，使盒模型为w3c盒模型*/
+      background:red;
+      overflow-y:scroll;/*控制能沿y轴滚动*/
+    }
+    .scroll{
+      width:100%;
+      background:green;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div class="parent">
+    <div class="scroll">
+      东莞市房根到广东佛山割发发代东佛山割发发代东佛山割发发代东佛山割发发代东佛山割发发代东佛
+      山割发发代东佛山割发发代东佛山割发发代代东佛山割发发代代东佛山割发发代
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
+
