@@ -24,15 +24,16 @@
   margin-left: 365px;
   margin-top: 20px;
 }
-.login h3 {
+.account {
   font-size: 47px;
   font-weight: 500;
   margin-left: 130px;
-}
-.account {
   margin-top: 110px;
 }
 .cipher {
+  font-size: 47px;
+  font-weight: 500;
+  margin-left: 130px;
   margin-top: 190px;
 }
 .five_input {
@@ -73,7 +74,7 @@
   letter-spacing: 30px;
 }
 .login div p {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 60px;
 }
 .bottom_forget {
