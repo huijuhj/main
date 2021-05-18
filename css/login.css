@@ -1,4 +1,7 @@
 * {margin: 0; padding: 0;}
+body {
+  height: 1740px;
+}
 .back {
   height: 50px;
   width: 50px;
@@ -39,26 +42,29 @@
 .five_input {
   width: 680px;
   height: 70px;
+  outline: none;
   margin-left: 130px;
   margin-top: 10px;
 }
 .five_input label input {
-  background-color: rgb(246, 246, 246);
+  width: 680px;
+  height: 70px;
+  outline: none;
+  padding: 20px;
+  font-size: 45px;
+  font-weight: 400;
   border-width: 6px;
   border-radius: 20px;
   border-style: solid;
   border-color: rgb(5, 47, 87);
-  font-size: 45px;
-  font-weight: 400;
-  padding: 20px;
-  width: 680px;
-  height: 70px;
+  background-color: rgb(246, 246, 246);
 }
 .login button {
   color: white;
   width: 730px;
   height: 120px;
   border: none;
+  outline: none;
   margin-top: 150px;
   font-weight: bold;
   border-radius: 20px;
@@ -68,8 +74,6 @@
 }
 .login button span {
   font-size: 50px;
-  font-weight: 500;
-  line-height: 3px;
   letter-spacing: 30px;
 }
 
