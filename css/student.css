@@ -22,10 +22,22 @@ body {
   margin-top: 600px;
   margin-left: 60px;
 }
-.top img {
+.profile {
   z-index: -1;
   margin-top: 5px;
   margin-left: 270px;
+}
+.setting {
+  z-index: -1;
+  margin-top: 50px;
+  margin-left: 100px;
+  position: absolute;
+}
+.identification {
+  z-index: -1;
+  margin-top: -42px;
+  margin-left: 580px;
+  position: absolute;
 }
 .top h1{
   font-size: 60px;
