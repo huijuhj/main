@@ -163,7 +163,7 @@ input {
 .radio {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
+  margin-top: 16px;
   margin-left: 36px;
   border: medium solid #2d648d;
 }
@@ -177,7 +177,7 @@ input {
 }
 .help_label {
   margin-top: 240px;
-  margin-left: 239px;
+  margin-left: 242px;
   font-size: 45px;
   font-weight: 700;
   display: inline-block;
@@ -193,6 +193,7 @@ input {
   margin-right: 10px;
   display: inline-block;
   vertical-align: middle;
+  -webkit-backface-visibility: hidden;
 }
 .test-radio:checked+ .test-radioInput:after {
   width: 40px;
